@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto de Vida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Projeto de Vida</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#metas">Metas</a></li>
+                <li><a href="#inspiracoes">Inspirações</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="card">
+            <h2>Sobre Mim</h2>
+            <p id="sobre-texto">Carregando informações sobre mim...</p>
+            <button id="mudar-tema">Mudar Tema</button>
+        </section>
+
+        <section id="metas" class="card">
+            <h2>Minhas Metas</h2>
+            <ul id="lista-metas">
+                <!-- Metas serão adicionadas via JavaScript -->
+            </ul>
+            <div class="adicionar-meta">
+                <input type="text" id="nova-meta" placeholder="Nova meta...">
+                <button id="adicionar-meta">Adicionar</button>
+            </div>
+        </section>
+
+        <section id="inspiracoes" class="card">
+            <h2>Minhas Inspirações</h2>
+            <div class="galeria" id="galeria-inspiracoes">
+                <!-- Imagens serão adicionadas via JavaScript -->
+            </div>
+        </section>
+
+        
+        <p>&copy; <span id="ano-atual"></span> Meu Projeto de Vida</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
